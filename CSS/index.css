@@ -1,0 +1,38 @@
+
+    *{font-family: italic;}
+
+    body{ background: url(/descarga1.ico);  
+    background-repeat: no-repeat; 
+    background-size: 100%;}
+
+    button{border-bottom-style: outset;
+     cursor: auto;}
+  
+    h5{text-align: center;
+            color:mediumblue}
+
+    form, img{display: flex;
+      flex-direction: column;
+         align-items: center;}
+ 
+    input, button{
+    height: 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    color:#f5f4eb;
+    -webkit-box-shadow: inset -1px 3px 8px 5px rgb(34, 36, 37), 2px 5px 16px 0px rgb(52, 54, 56), 5px 5px 15px 5px rgba(59, 55, 55, 0); 
+    box-shadow: inset -1px 3px 8px 5px rgb(34, 36, 37), 2px 5px 16px 0px rgb(52, 54, 56), 5px 5px 15px 5px rgba(59, 55, 55, 0);
+    }
+
+    img{align-items: center;
+    margin: 0;}
+
+    hr{background-color: gray;
+      mask-repeat: no-repeat;}
+    
+    h4{text-align: center;
+      color: yellow;}
+
+    h2{color: red;}
+
+    label{color: blue;}

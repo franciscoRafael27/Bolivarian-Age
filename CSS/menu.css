@@ -1,14 +1,27 @@
+@font-face{
+    font-family: "Algerian";
+    src: url("/static/fonts/algerian.ttf");
+}
+
+@font-face{
+    font-family: "Algerian Regular";
+    src: url("/static/fonts/Algerian Regular.ttf");
+}
+
     body{ background: url(../descarga1.ico);  
     background-repeat: no-repeat; 
     background-size: 100%;}
 
-    button{background-color: yellow;
+    .menu-boton{
+        font-family: "Algerian";
+        background-color: yellow;
         border-bottom-style: outset; height: 25px;
         border-radius: 8px;
         text-decoration: none;
         color:#f5f4eb;
         -webkit-box-shadow: inset -1px 3px 8px 5px rgb(34, 36, 37), 2px 5px 16px 0px rgb(52, 54, 56), 5px 5px 15px 5px rgba(59, 55, 55, 0); 
-        box-shadow: inset -1px 3px 8px 5px rgb(34, 36, 37), 2px 5px 16px 0px rgb(52, 54, 56), 5px 5px 15px 5px rgba(59, 55, 55, 0);}
+        box-shadow: inset -1px 3px 8px 5px rgb(34, 36, 37), 2px 5px 16px 0px rgb(52, 54, 56), 5px 5px 15px 5px rgba(59, 55, 55, 0);
+    }
         
 
     

@@ -1,9 +1,19 @@
 
-    *{font-family: italic;}
+    *{align-items: center;}
 
     body{ background: url(../descarga1.ico);  
     background-repeat: no-repeat; 
     background-size: 100%;}
+
+@font-face{
+    font-family: "Algerian";
+    src: url("/static/fonts/algerian.ttf");
+}
+
+@font-face{
+    font-family: "Algerian Regular";
+    src: url("/static/fonts/Algerian Regular.ttf");
+}
 
     button{border-bottom-style: outset;
      cursor: auto;}
